@@ -27,11 +27,8 @@ Compile the application and load it onto a UEFI-compatible system. When executed
 
 To build the application, use the following steps:
 
-1. Set up your UEFI development environment.
+1. Set up your UEFI development environment(EDK2).
 2. Place this source code in the appropriate directory.
 3. Use the provided build tools to compile the application.
 
-For example, using the EDK2 build system:
 
-```bash
-$ build -p UefiMain.inf
